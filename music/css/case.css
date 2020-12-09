@@ -1,0 +1,84 @@
+body{
+	margin: auto;
+}
+nav{
+	text-align: right;
+	margin: 0px 5px 0px 5px;
+}
+nav a{
+	text-decoration: none;
+	padding: 0px 10px 0px 10px;
+	font-size: 18px;
+	color: #8500c8;
+}
+nav a:hover{
+	font-size: 18px;
+	color: #ffaaff;
+}
+hr{
+	border: aqua solid 2px;
+}
+table{
+	width: 1000px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #66c1e4;
+}
+tr,td{
+	border:1px solid #66c1e4 ;
+}
+.title1{
+	width: 100px;
+	padding-right: 10px;
+	color: #4966cf;
+	font-size: 18px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+.title2{
+	height: 40px;
+	width: 200px;
+	padding-left: 20px;
+}
+.title3{
+	padding-left: 20px;
+}
+.img1{
+	text-align: center;
+}
+.img1 img{
+	margin: 10px;
+	padding: 3px;
+	border: 3px solid #797979;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #00FFFF;
+}
+.news{
+	color: #4966cf;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.foot1{
+	text-align: center;
+}
+.foot1 a{
+	color: red;
+	padding: 10px;
+	text-decoration: none;
+}
+.foot2{
+	margin-top: 5px;
+	text-align: center;
+}
+.foot2 span{
+	margin-left: 20px;
+}
+.foot3{
+	margin-top: 5px;
+	text-align: center;
+}
+.foot3 span{
+	margin-left: 10px;
+}

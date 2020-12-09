@@ -1,0 +1,52 @@
+body{
+	margin: auto;
+	
+}
+nav{
+	text-align: right;
+	margin: 0px 5px 0px 5px;
+}
+nav a{
+	text-decoration: none;
+	padding: 0px 10px 0px 10px;
+	font-size: 18px;
+	color: #8500c8;
+}
+nav a:hover{
+	font-size: 18px;
+	color: #ffaaff;
+}
+hr{
+	border: aqua solid 2px;
+}
+main{
+	margin: auto;
+	width: 800px;	
+}
+.shouhou a{
+	text-decoration: none;
+}
+
+
+.foot1{
+	text-align: center;
+}
+.foot1 a{
+	color: red;
+	padding: 10px;
+	text-decoration: none;
+}
+.foot2{
+	margin-top: 5px;
+	text-align: center;
+}
+.foot2 span{
+	margin-left: 20px;
+}
+.foot3{
+	margin-top: 5px;
+	text-align: center;
+}
+.foot3 span{
+	margin-left: 10px;
+}
