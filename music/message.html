@@ -20,29 +20,30 @@
 		</header>
 		<main >
 				   <p>尊敬的客户：如果您需要了解我们的产品和得到我们的服务，敬请留下宝贵的意见和建议，我们将给予您最快的答复。谢谢您的支持与参与!<br /><span class="shouhou">售后服务邮箱：<a href="mailto:1974892005@qq.com">yhfwk@huaantong.com</a></span></p>
-				   <form action="https://1974892005.github.io" target="_blank" method="get">
+				   <form action="https://1974892005.github.io" target="_blank" method="get" autocomplete="off">
 					   <fieldset>
 						   <legend>客户留言</legend>
-						   您的姓名：<input type="text" name="name"  /><br /><br />
-						   您的性别：<input type="radio" name="nan" value="男" />男<input type="radio" name="nv" checked="checked"  value="女" />女<br /><br />
-						   客户类型：<select name="leixing">
+						   您的姓名：<input class="one" required="required" type="text" pattern="^[\u4e00-\u9fa5]{0,}$" placeholder="请输入你的中文名字" name="name"  /><br />
+						   您的性别：<input  type="radio" name="nan" value="男" />男<input type="radio" name="nan" checked="checked"   value="女" />女<br />
+						   客户类型：<input required="required" class="one" name="leix" list="leix" />
+						   <datalist  id="leix">
 							   <option>代理</option>
 							    <option>用户</option>
 							    <option>公司</option>
-								 <option>其他</option>
-							   <option selected="selected">请选择</option>
-						  </select><br /><br />
-						  联系电话：<input type="tel" name="tel"  value="" /><br /><br />
-						  电子邮箱：<input type="email" name="email" value="1974892005@qq.com" /><br /><br />
-						  设计调查：<input type="checkbox" name="diaocha" checked="checked"  value="室内设计" />室内设计
+								<option>其他</option>
+							   </datalist>
+						  <br />
+						  联系电话：<input required="required" class="one" type="tel" name="tel" pattern="^\d{11,13}$" placeholder="请输入11-13位的手机号码"  value="" /><br />
+						  电子邮箱：<input required="required" class="one" type="email" name="email" placeholder="请输入你的邮箱" value="" /><br />
+						  设计调查：<input required="required" type="checkbox" name="diaocha" checked="checked"  value="室内设计" />室内设计
 						  <input type="checkbox" name="diaocha"  value="景观设计" />景观设计
 						  <input type="checkbox" name="diaocha"  value="家具定制" />家具定制
-						  <input type="checkbox" name="diaocha"  value="其他(请选择你近期想要沟通的项目)" />其他(请选择你近期想要沟通的项目)<br /><br />
-						  留言标题：<input type="text" name="liuyan" /><br /><br />
-						  留言内容：<textarea rows="4" cols="30"></textarea><br /><br />
-						  附&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;件：<input type="file" name="file"   /><br /><br />
-						  <input type="submit" name="submit"  value="提交" />
-						  <input type="reset" name="reset"  value="重置" />
+						  <input type="checkbox" name="diaocha"  value="其他(请选择你近期想要沟通的项目)" />其他(请选择你近期想要沟通的项目)<br />
+						  留言标题：<input required="required" class="one" type="text" placeholder="请输入留言标题" name="liuyan" /><br />
+						  留言内容：<textarea required="required" rows="4" cols="30"></textarea><br />
+						  附&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;件：<input type="file" name="file"   /><br />
+						  <div class="anniu"><input class="buttom1" type="submit" name="submit"  value="提交" />
+						  <input class="buttom1" type="reset" name="reset"  value="重置" /></div>
 					   </fieldset>
 				   </form>
 				   

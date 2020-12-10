@@ -22,12 +22,47 @@ hr{
 main{
 	margin: auto;
 	width: 800px;	
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #999;
+	line-height: 30px;
+	
 }
 .shouhou a{
 	text-decoration: none;
 }
 
-
+fieldset{
+	padding: 10px 30px;
+	border: #66C1E4 solid 3px;
+}
+legend{
+	font-weight: bold;
+	color: blue;
+}
+.one{
+	width: 400px;
+	border: 1px solid #66C1E4;
+}
+textarea{
+	width: 70%;
+	padding: 10px;
+	vertical-align: top;
+}
+.buttom1{
+	padding: 10px 30px;
+	background-color: #66C1E4;
+	border: none;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+.buttom1:hover{
+	background-color: orange;
+}
+.anniu{
+	text-align: center;
+}
 .foot1{
 	text-align: center;
 }
