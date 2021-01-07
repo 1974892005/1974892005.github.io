@@ -1,0 +1,186 @@
+body{
+	width: 80%;
+	margin: 0 auto;
+
+}
+@font-face {
+	font-family:myfont;
+	src: url(../img/fzybsjt.ttf);
+}
+header{
+	width: 100%;
+	background: #FFF;
+	height: 150px;
+}
+.logo img{
+	float: left;
+}
+.logo p{
+	margin: 1% 8%;
+	font-family: myfont;
+}
+.l1{
+	text-indent: 1em;
+	font-size: 22px;
+	font-weight: bold;
+	color: skyblue;
+	letter-spacing: 5px;
+}
+.l2{
+	letter-spacing: 5px;
+}
+.tel{
+	margin-top: -4%;
+	float: right;
+	color: SkyBlue;
+	text-align: center;
+	letter-spacing: 0.3em;
+}
+.tel .text{
+	border: solid #87CEEB 1px;
+	width: 70%;
+	height: 32px;
+}
+.tel #button{
+	border: none;
+	height: 2em;
+	width: 40px;
+	border-radius: 5px;
+	background: #87CEEB;
+	color: yellow;
+}
+nav{
+	margin-top: 1%;
+	background-color: #527e8f;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+}
+nav ul>li{
+	position: relative;
+	text-align: center;
+	width: 100px;
+	float: left;
+	margin-left: 5%;
+}
+nav ul li ol{
+	position: absolute;
+	text-align: center;
+	width: 100px;
+	display: none;
+	margin-left: 0%;
+	background-color: #527e8f;
+}
+nav li a{
+	font-weight: bold;
+}
+nav ul li:hover{
+	background: #03aace;
+	border-radius: 10px;
+}
+nav ul li:hover ol{
+	display: block;
+}
+@keyframes lunbo{
+	0%{
+		background-image: url(../img/banner14.jpg);
+	}
+	50%{
+		background-image: url(../img/banner15.jpg);
+	}
+	100%{
+		background-image: url(../img/banner16.jpg);
+	}
+}
+.banner{
+	width: 100%;
+	height: 396px;
+	background: url(../img/banner14.jpg) no-repeat;
+	animation: lunbo 6s infinite;
+}
+main{
+	margin-top: 2%;
+}
+.case{
+	text-align: center;
+	color: #08774D;
+	line-height: 2em;
+}
+.news{
+	margin-top: 2%;
+	width: 100%;
+	height: 780px;
+}
+.nl{
+	float: left;
+	margin-left: 5%;
+}
+#nt{
+	background: #08774D;
+}
+#nt a{
+	color: #fff;
+}
+
+.nl a{
+	color: #08774D;
+}
+.nl{
+	margin-top: 2%;
+}
+.nl p{
+	height: 4em;
+	width: 200px;
+	margin-top: 2%;
+	line-height: 4em;
+	text-indent: 1em;
+	background: #d9d9d9;
+}
+.nr{
+	float: right;
+	width: 70%;
+	margin-right: 1%;
+}
+.tip{
+	margin-top: 3%;
+	height:121px ;
+}
+.tip img{
+	float: left;
+	margin-right: 5%;
+}
+.tip2{
+	width: 50%;
+	padding-bottom: 2%;
+	border-bottom: 2px #bdbdbd dashed;
+}
+.tip2 h4{
+	line-height: 2em;
+	text-indent: 2em;
+}
+.tip:last-child{
+	margin-left: 2%;
+	margin-top: 4%;
+}
+.tip input{
+	color: #fff;
+	background: #08774D;
+	border: none;
+	height: 30px;
+	width: 80px;
+}
+footer{
+	background:#527E8F;
+	width: 100%;
+	height: 200px;
+}
+.footl{
+	float: left;
+	margin:1% 2%;
+	line-height: 3em;
+}
+.footr{
+	margin: 0.7% 3%;
+	float: right;
+	
+}

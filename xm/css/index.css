@@ -1,0 +1,171 @@
+body{
+	width: 80%;
+	margin: 0 auto;
+
+}
+@font-face {
+	font-family:myfont;
+	src: url(../img/fzybsjt.ttf);
+}
+header{
+	width: 100%;
+	background: #FFF;
+	height: 150px;
+}
+.logo img{
+	float: left;
+}
+.logo p{
+	margin: 1% 8%;
+	font-family: myfont;
+}
+.l1{
+	text-indent: 1em;
+	font-size: 22px;
+	font-weight: bold;
+	color: skyblue;
+	letter-spacing: 5px;
+}
+.l2{
+	letter-spacing: 5px;
+}
+.tel{
+	margin-top: -4%;
+	float: right;
+	color: SkyBlue;
+	text-align: center;
+	letter-spacing: 0.3em;
+}
+.tel .text{
+	border: solid #87CEEB 1px;
+	width: 70%;
+	height: 32px;
+}
+.tel #button{
+	border: none;
+	height: 2em;
+	width: 40px;
+	border-radius: 5px;
+	background: #87CEEB;
+	color: yellow;
+}
+nav{
+	margin-top: 1%;
+	background-color: #527e8f;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+}
+nav ul>li{
+	position: relative;
+	text-align: center;
+	width: 100px;
+	float: left;
+	margin-left: 5%;
+}
+nav ul li ol{
+	position: absolute;
+	text-align: center;
+	width: 100px;
+	display: none;
+	margin-left: 0%;
+	background-color: #527e8f;
+}
+nav li a{
+	font-weight: bold;
+}
+nav ul li:hover{
+	background: #03aace;
+	border-radius: 10px;
+}
+nav ul li:hover ol{
+	display: block;
+}
+@keyframes lunbo{
+	0%{
+		background-image: url(../img/banner14.jpg);
+	}
+	50%{
+		background-image: url(../img/banner15.jpg);
+	}
+	100%{
+		background-image: url(../img/banner16.jpg);
+	}
+}
+.banner{
+	width: 100%;
+	height: 396px;
+	background: url(../img/banner14.jpg) no-repeat;
+	animation: lunbo 6s infinite;
+}
+main{
+	margin-top: 1%;
+}
+.case{
+	text-align: center;
+	color: #08774D;
+	line-height: 2em;
+}
+.case li{
+	float: left;
+	height: 240px;
+	margin: 10px 0px 2% 5%;
+	position: relative;
+	overflow: hidden;
+}
+.case img{
+	width: 400px;
+	height: 240px;
+}
+.case p{
+	margin: 0px;padding: 0px;
+	width: 400px;
+	height: 60px;
+	line-height: 60px;
+	color: #fff;
+	background-color: rgba(109, 109, 109, 0.5);
+	position: absolute;top:240px;
+}
+.case li:hover img{
+	transition: all 1s; 
+	transform: scale(1.5);
+}
+.case li:hover p{
+	position: absolute;top: 180px;
+	transition:top 2s;
+}
+.tip h3{
+	text-align: center;
+	color: #e56e1f;
+	margin-bottom: 2%;
+}
+.tipl{
+	float: left;
+	width: 50%;
+	margin-left: 5%;
+	text-indent: 2em;
+	line-height: 2.5em;
+}
+.tipr{
+	width: 30%;
+	margin-left: 10%;
+	float: left;
+}
+#tip img{
+	margin: 2% 2.5%;
+}
+footer{
+	background:#527E8F;
+	width: 100%;
+	height: 200px;
+}
+.footl{
+	float: left;
+	margin:1% 2%;
+	line-height: 3em;
+}
+.footr{
+	margin: 0.7% 3%;
+	float: right;
+	
+}
