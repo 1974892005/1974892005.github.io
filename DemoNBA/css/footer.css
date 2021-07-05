@@ -1,0 +1,197 @@
+/* footer */
+
+
+
+
+
+/* new copyright */
+#copyright-wrap {
+    width: 100%;
+    height: 250px;
+}
+
+#copyright-tab {
+    width: 100%;
+    height: 250px;
+    background: url(https://mat1.gtimg.com/qqcdn/chinanba/web/static/styles/images/footer-bg.png) no-repeat center 0 #012f50;
+}
+
+.copyright-tab {
+    margin: 0 auto;
+    width: 1200px;
+    height: 250px;
+}
+
+.copyright-tab .tab-list {
+    width: 210px;
+}
+
+.copyright-tab .tab-sports-app,
+.copyright-tab .tab-nba-app {
+    width: 180px;
+}
+
+.copyright-tab div {
+    height: 250px;
+    float: left;
+}
+
+.copyright-tab span {
+    height: 65px;
+    line-height: 65px;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+}
+
+.copyright-tab a {
+    margin-bottom: 7px;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+}
+
+.copyright-tab a:hover {
+    text-decoration: underline;
+}
+
+.copyright-tab img {
+    width: 110px;
+    height: 110px;
+}
+
+.copyright-tab .tab-sports-app span {
+    padding-left: 20px;
+}
+
+.copyright-tab .tab-nba-app span,
+.copyright-tab .tab-nba-app img {
+    padding-left: 15px;
+}
+
+
+
+
+
+/* 返回顶部 */
+.side-floor {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    margin-top: -98px;
+    width: 80px;
+    height: 197px;
+}
+
+.side-floor a {
+    height: 40px;
+    border-bottom: 1px solid #002f50;
+    display: block;
+}
+
+.side-floor a:hover {
+    background-color: #0079cd;
+}
+
+.side-floor .floor-top {
+    margin-bottom: 4px;
+    height: 30px;
+    border: none;
+    background: url("//mat1.gtimg.com/qqcdn/chinanba/web/static/styles/images/icon_16_arrow_up_white.png") no-repeat center #2464b5;
+}
+
+.side-floor .floor-ballfans {
+    background: url("//mat1.gtimg.com/chinanba/images/nbalogo/ball-fans-icon-pc.png") no-repeat center #2464b5;
+}
+
+.side-floor .floor-jrnba {
+    background: url("//mat1.gtimg.com/chinanba/images/nbalogo/jrnba-icon-pc.png") no-repeat center #2464b5;
+}
+
+.side-floor .floor-nbaapp {
+    background: url("//mat1.gtimg.com/chinanba/images/nbalogo/nbaapp-icon-pc.png") no-repeat center #2464b5;
+}
+
+.side-floor .floor-ttnba {
+    background: url('./images/ttnba-ico.png') no-repeat center #2464b5;
+}
+
+.side-floor .floor-nbastore {
+    background: url("//mat1.gtimg.com/chinanba/images/nbalogo/nbastore-icon-pc.png") no-repeat center #2464b5;
+    border: none;
+}
+
+.side-floor .floor-qrcode {
+    position: absolute;
+    top: 0;
+    right: 90px;
+    width: 148px;
+    height: 178px;
+    border: 1px solid #0079cd;
+    background: #fff;
+    display: none;
+}
+
+.side-floor .floor-qrcode img {
+    margin: 25px 28px 10px 28px;
+    width: 92px;
+    height: 92px;
+}
+
+.side-floor .floor-qrcode span {
+    text-align: center;
+    display: block;
+}
+
+
+
+/* 合作伙伴 */
+.nba-partner {
+    margin: 0 auto;
+    width: 100%;
+    clear: both;
+}
+
+.nba-partner h3 {
+    width: 1200px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #E1E1E1;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.partners-list {
+    margin-top: 20px;
+    width: 1200px;
+}
+
+.partners-list a {
+    display: inline-block;
+    width: 110px;
+    height: 60px;
+    /* float: left; */
+}
+
+.partners-list a.bottom-partner {
+    width: 110px;
+}
+
+.partners-list a.last-partner {
+    width: 100px;
+}
+
+.partners-list a img {
+    width: 100%;
+    height: 100%;
+}
+
+.partner-channel {
+    padding: 20px;
+    font-size: 12px;
+    line-height: 24px;
+    clear: both;
+}
+
+/* footer End */

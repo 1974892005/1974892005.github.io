@@ -1,0 +1,355 @@
+@import url("//unpkg.com/element-ui@2.15.3/lib/theme-chalk/index.css");
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-width: 1024px;
+    max-width: 1920px;
+    background: url(https://mat1.gtimg.com/qqcdn/chinanba/web/static/styles/images/bg.jpg) center 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.header {
+    height: 120px;
+    width: 100%;
+    background: #006bb7;
+    overflow: hidden;
+
+    .header-bg {
+        position: absolute;
+        left: 50%;
+        margin-left: -600px;
+        width: 1200px;
+        height: 120px;
+        background: url(../images/header-bg.png) no-repeat;
+    }
+
+    .header-main {
+        height: 80px;
+        position: relative;
+
+        .header-logo {
+            position: absolute;
+            top: 10px;
+            left: 2%;
+            background: url('https://mat1.gtimg.com/chinanba/images/nbalogo/nba-icon.png') no-repeat;
+            height: 60px;
+            width: 50%;
+            background-size: 24%, 30%;
+        }
+    }
+
+    .header-nav {
+        position: absolute;
+        height: 40px;
+        padding-left: 40px;
+        color: #fff;
+        font-size: 20px;
+        width: 86%;
+        overflow: hidden;
+
+        ul li {
+            float: left;
+            width: 60px;
+            margin-left: 40px;
+
+            .nav-link {
+                display: flex;
+                color: #fff;
+                font-size: 20px;
+            }
+        }
+
+        .server-nav {
+            float: left;
+            margin-left: 20%;
+        }
+
+        .user-nav {
+            span {
+                float: left;
+                margin-left: 2%;
+                background: url(https://mat1.gtimg.com/chinanba/web/statics/icon_30_user_f91522.png) no-repeat;
+                height: 40px;
+                width: 40px;
+            }
+        }
+    }
+}
+
+.main {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+
+    .main-1200 {
+        width: 1220px;
+        background-color: #fff;
+        margin: 0 auto;
+        padding: 10px;
+
+        .sched {
+            border-top: solid 1px #dadada;
+            border-bottom: solid 1px #dadada;
+            overflow: hidden;
+            box-shadow: 0px 3px 5px rgb(85, 82, 83);
+
+        }
+
+        .bannerImg {
+            margin-top: 10px;
+        }
+
+        .Carousel {
+            margin-top: 30px;
+            display: flex;
+
+            .CarouselItem1 {
+                width: 40%;
+                margin-left: 10px;
+            }
+
+            .CarouselItem2 {
+                margin-left: 20px;
+                width: 30%;
+
+                .itemList {
+                    border-bottom: 1px solid rgb(184, 169, 169);
+                    height: 80px;
+                    line-height: 80px;
+
+                    .el-link {
+                        font-size: 16px;
+                        color: #000;
+
+                        &:hover {
+                            color: #409EFF;
+                        }
+                    }
+                }
+            }
+
+            .CarouselItm3 {
+                margin-left: 30px;
+            }
+
+            #mod-impnews {
+                margin-left: 30px;
+
+                .text {
+                    font-size: 14px !important;
+                }
+
+                .item {
+                    margin-bottom: 10px !important;
+                }
+
+                .box-card {
+                    width: auto;
+                }
+            }
+        }
+
+        .service {
+            margin-top: 10px;
+
+            .service-title {
+                text-align: left;
+            }
+
+            .servicetitle {
+                // margin-left: 40px;
+                color: #409EFF;
+                font-size: 23px;
+                width: 50px;
+                border-bottom: 5px solid red;
+            }
+
+            .serviceMain {
+                display: flex;
+
+                .ser1 {
+                    width: 880px;
+                    // background: pink;
+
+                    a {
+                        float: left;
+                        background: url(http://inews.gtimg.com/newsapp_ls/0/13730771905_1164606/0) no-repeat bottom;
+                        height: 260px;
+                        width: 400px;
+                        text-decoration: none;
+                        font-size: 18px;
+
+                        &:nth-child(2) {
+                            margin-left: 2px;
+                        }
+
+                        span {
+                            color: #fff;
+                            line-height: 420px;
+                        }
+                    }
+
+                    .serItem {
+                        .seritem {
+                            margin-top: 20px;
+                            float: left;
+
+                            &:last-child {
+                                margin-left: 20px;
+                            }
+                        }
+
+                        .time {
+                            font-size: 13px;
+                            color: #999;
+                        }
+
+                        .image {
+                            width: 384px;
+                            height: 200px;
+                        }
+                    }
+
+
+                }
+
+                .ser2 {
+                    margin-left: 10px;
+
+                    .el-tabs {
+                        width: 340px;
+                    }
+                }
+            }
+        }
+
+
+        // 视频样式
+        .video {
+            margin-top: 20px;
+
+            .video-title {
+                text-align: left;
+
+                .el-link:last-child {
+                    margin-left: 30px;
+                }
+
+                .videotitle {
+                    margin-left: 40px;
+                    color: #409EFF;
+                    font-size: 20px;
+                }
+            }
+
+            .videoMain {
+                .v1 {
+                    display: flex;
+                }
+
+            }
+        }
+
+        // 数据王
+        .dataForm {
+            margin-top: 10px;
+
+            .data-title {
+                text-align: left;
+
+                .datatitle {
+                    margin-left: 40px;
+                    color: #409EFF;
+                    font-size: 20px;
+                }
+            }
+
+            .dataMain {
+                // background: aquamarine;
+                height: 400px;
+                display: flex;
+
+                .mainlist {
+                    flex: 5;
+                }
+            }
+        }
+
+        // 专题
+        .special {
+            .specialTitle {
+                text-align: left;
+                font-size: 20px;
+                color: #409EFF;
+
+                span {
+                    margin-left: 40px;
+                }
+            }
+
+            .specialMain {
+                display: flex;
+
+                .specialMainItem {
+                    position: relative;
+
+                    .speciaMainImg {
+                        display: flex;
+                    }
+
+                    &:last-child {
+                        margin-left: 0%;
+
+                        .specialIframe {
+                            position: absolute;
+                            margin: 0 auto;
+
+                            #panshi-iframe {
+                                margin-left: 40px;
+                                margin-bottom: 150px;
+                            }
+
+                            img {
+                                position: absolute;
+                                bottom: 0;
+                                right: 0;
+
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+}
+
+
+
+@import url(./footer.css);
+
+.adList {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer {
+    background: #000;
+    height: 130px;
+    color: #fff;
+    text-align: center;
+
+    span {
+        line-height: 130px;
+    }
+}
