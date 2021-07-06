@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NBA模拟</title>
-    <script src="//unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue@2.6.14/dist/vue.js"></script>
     <link rel="stylesheet" href="./css/main.css">
-    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <script src="https://unpkg.com/element-ui@2.11.1/lib/index.js"></script>
     <link rel="stylesheet" href="./css/news.css">
 </head>
 
@@ -145,10 +145,10 @@
                             </a>
 
                             <div class="serItem">
-                                <div class="seritem" v-for="item in 2">
-                                    <img src="http://inews.gtimg.com/newsapp_ls/0/13730049664_1164606/0" class="image">
+                                <div class="seritem" v-for="item in seritem">
+                                    <img :src="item.serimg" class="image">
                                     <div class="serItem" style="padding: 14px;">
-                                        <span>47年与28年 雄鹿和太阳终于重返总决赛</span>
+                                        <span>{{item.sertitle}}</span>
                                         <div class="bottom clearfix">
                                             <time class="time">{{ currentDate }}</time>
                                         </div>
@@ -197,9 +197,9 @@
                     <div class="videoMain">
                         <div class="v1" v-for="item in 2">
                             <div class="row v1item">
-                                <div class="col-sm-6 col-md-4" v-for="item in 3">
+                                <div class="col-sm-6 col-md-4" v-for="item in videoUrl">
                                     <div class="thumbnail">
-                                        <img :src="videoUrl" alt="...">
+                                        <img :src="item.url" alt="...">
                                         <div class="caption">
                                             <nav>
                                                 <ul class="pager">
@@ -261,13 +261,10 @@
                     <div class="specialMain">
                         <div class="specialMainItem">
                             <div class="speciaMainImg" v-for="item in 2">
-                                <el-card v-for="item in 3" :body-style="{ padding: '0px' }">
-                                    <img style="height: auto;"
-                                        src="https://img1.gtimg.com/chinanba/pics/hv1/195/15/2284/148521120.jpg"
-                                        class="image">
+                                <el-card v-for="item in special" :body-style="{ padding: '0px' }">
+                                    <img style="height: auto;" :src="item.ImgUrl" class="image">
                                     <div style="padding: 2px;">
-                                        <img src="./images/151252007.jpg"
-                                            alt="" srcset="">
+                                        <img :src="item.pics" alt="" srcset="">
                                     </div>
                                 </el-card>
                                 <br>

@@ -18,10 +18,13 @@ li {
 }
 
 .header {
+    position: fixed;
+    top: 0;
     height: 120px;
     width: 100%;
     background: #006bb7;
     overflow: hidden;
+    z-index: 9999;
 
     .header-bg {
         position: absolute;
@@ -39,7 +42,7 @@ li {
         .header-logo {
             position: absolute;
             top: 10px;
-            left: 2%;
+            left: 5%;
             background: url('https://mat1.gtimg.com/chinanba/images/nbalogo/nba-icon.png') no-repeat;
             height: 60px;
             width: 50%;
@@ -50,11 +53,12 @@ li {
     .header-nav {
         position: absolute;
         height: 40px;
-        padding-left: 40px;
+        margin-left: 15%;
         color: #fff;
         font-size: 20px;
         width: 86%;
         overflow: hidden;
+
 
         ul li {
             float: left;
@@ -70,7 +74,7 @@ li {
 
         .server-nav {
             float: left;
-            margin-left: 20%;
+            margin-left: 15%;
         }
 
         .user-nav {
@@ -89,6 +93,7 @@ li {
     margin: 0 auto;
     width: 80%;
     text-align: center;
+    margin-top: 120px;
 
     .main-1200 {
         width: 1220px;
